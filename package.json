@@ -1,0 +1,29 @@
+{
+  "name": "backend-inorbit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --env-file .env watch src/http/server.ts ",
+    "db:generate": "npx drizzle-kit generate",
+    "db:migrate": "npx drizzle-kit migrate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@paralleldrive/cuid2": "^2.2.2",
+    "drizzle-kit": "^0.24.2",
+    "drizzle-orm": "^0.33.0",
+    "fastify": "^4.28.1",
+    "postgres": "^3.4.4",
+    "postgresql": "^0.0.1",
+    "typescript": "^5.6.2",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@types/node": "^22.5.4",
+    "tsx": "^4.19.0"
+  }
+}

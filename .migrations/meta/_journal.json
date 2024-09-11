@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1726064461758,
+      "tag": "0000_open_layla_miller",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1726065426749,
+      "tag": "0001_workable_shard",
+      "breakpoints": true
+    }
+  ]
+}
